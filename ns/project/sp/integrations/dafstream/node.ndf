@@ -45,6 +45,7 @@
           <value name="field_name">v2</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -62,6 +63,7 @@
           <value name="field_name">v1</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -97,7 +99,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sumita.Priyadarshy@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-07T13:48:37.151857256Z</value>
+    <value name="lastModifiedDate">2026-10-07T13:49:37.989528703Z</value>
     <value name="displayName">dafstream</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
