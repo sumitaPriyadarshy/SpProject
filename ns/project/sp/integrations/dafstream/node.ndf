@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sumita.Priyadarshy@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-07T13:47:31.436366236Z</value>
+    <value name="lastModifiedDate">2026-10-07T13:48:37.151857256Z</value>
     <value name="displayName">dafstream</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -142,6 +142,27 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">concat</value>
+          <value name="serviceName">pub.string:concat</value>
+          <Boolean name="enabled">true</Boolean>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
       </record>
     </record>
     <value name="modifiedBy">Sumita.Priyadarshy@ibm.com</value>
