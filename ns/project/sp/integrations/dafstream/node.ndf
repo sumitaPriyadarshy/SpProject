@@ -45,13 +45,33 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Sumita.Priyadarshy@ibm.com</value>
-    <value name="createdDate">2026-10-07T13:28:09.307055538Z</value>
-    <value name="lastModifiedDate">2026-10-07T13:28:09.307055538Z</value>
+    <value name="lastModifiedBy">Sumita.Priyadarshy@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-07T13:29:38.611993697Z</value>
     <value name="displayName">dafstream</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">IO</value>
+          <value name="groupName">io</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">streamToBytes</value>
+          <value name="serviceName">pub.io:streamToBytes</value>
+          <Boolean name="enabled">true</Boolean>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <number name="ui_step_index" type="Long">1</number>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -61,16 +81,16 @@
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="transformerSupport">true</value>
-          <value name="displayName">stringToBytes</value>
-          <value name="serviceName">pub.string:stringToBytes</value>
+          <value name="displayName">bytesToString</value>
+          <value name="serviceName">pub.string:bytesToString</value>
           <Boolean name="enabled">true</Boolean>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
       </record>
     </record>
     <value name="modifiedBy">Sumita.Priyadarshy@ibm.com</value>

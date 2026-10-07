@@ -5,28 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="String" SERVICE="pub.string:stringToBytes">
+<INVOKE NAME="IO" SERVICE="pub.io:streamToBytes">
   <COMMENT></COMMENT>
+</INVOKE>
 
-  <!-- nodes -->
-
-<MAP MODE="INPUT">
+<INVOKE NAME="String" SERVICE="pub.string:bytesToString">
   <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/string;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">fgfgf</value>
-</Values>
-</DATA>
-</MAPSET>
-</MAP>
-
-<MAP MODE="OUTPUT">
-  <COMMENT></COMMENT>
-</MAP>
 </INVOKE>
 </FLOW>
