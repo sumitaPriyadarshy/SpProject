@@ -9,7 +9,11 @@ services:
   packages:
   - name: SpProject
     version: "1.0"
-- serviceName: pub.string:stringToBytes
+- serviceName: pub.io:streamToBytes
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1206
+- serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
     version: 12.1.0.0.1206
