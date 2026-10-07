@@ -4,3 +4,12 @@ info:
 packages:
 - name: SpProject
   gitBranch: master
+services:
+- serviceName: project.sp.integrations:dafstream
+  packages:
+  - name: SpProject
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1206
