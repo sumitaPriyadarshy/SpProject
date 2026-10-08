@@ -5,6 +5,14 @@ packages:
 - name: SpProject
   gitBranch: master
 services:
+- serviceName: project.sp.integrations:dafints
+  packages:
+  - name: SpProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1206
 - serviceName: project.sp.integrations:dafstream
   packages:
   - name: SpProject
