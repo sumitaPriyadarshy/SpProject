@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: SpProject
-  gitBranch: master
+  gitServerName: sumitaShared
+  gitUrl: https://github.com/sumitaPriyadarshy
+  gitUsername: sumitaPriyadarshy
+  gitBranch: main
 services:
 - serviceName: project.sp.integrations:dafints
   packages:
